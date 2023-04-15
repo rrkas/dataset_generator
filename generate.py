@@ -1,3 +1,4 @@
+import os
 import argparse
 
 from tqdm import tqdm
@@ -17,8 +18,8 @@ parser.add_argument(
 parser.add_argument(
     "--limit",
     type=int,
-    default=2,
-    help="Limit number of samples",
+    default=100,
+    help="Number of records to generate",
 )
 parser.add_argument(
     "--output-dir",
@@ -31,7 +32,7 @@ parser.add_argument(
     "--format",
     type=str,
     default="csv",
-    help="Data format",
+    help="Output data format",
     choices=(
         "all",
         "csv",
@@ -56,3 +57,6 @@ for i in tqdm(range(args.limit)):
     data.append(dataset(fake))
 
 save_to_dir(data, args.format, output_dir)
+
+with open(os.path.join(output_dir, "problem_statement.txt"), "w") as f:
+    f.write(dataset.__doc__.strip())

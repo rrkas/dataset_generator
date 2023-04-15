@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 import random
+import uuid
 
 from faker import Faker
 
@@ -13,6 +14,12 @@ class MyFaker:
     def id(self):
         self.i += 1
         return self.i
+
+    def uuid(self):
+        return str(uuid.uuid4())
+
+    def uuid_hex(self):
+        return str(uuid.uuid4().hex)
 
     def first_name(self):
         return fake.first_name()

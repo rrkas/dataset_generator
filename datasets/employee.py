@@ -5,16 +5,26 @@ from ._faker import MyFaker
 
 def employee1(fake: MyFaker):
     """
-    Employee Dataset 1:
-    Fields:
-        id
-        first_name
-        last_name
-        email
-        gender
+    employee1:
+        emp_id              - integer
+        first_name          - string
+        last_name           - string
+        email               - string
+        gender              - string
+        dob                 - date-time in ISO format (string)
+        designation         - string
+        monthly_salary      - float (2 decimal places)
+
+    Possible problem statements:
+        1. Designation wise user count
+        2. Age wise user count
+        3. Gender wise user count
+        4. Total salary paid by the company per month and per year
+        5. Salary bracket wise user count (range of 10000)
+
     """
     return {
-        "id": fake.id(),
+        "emp_id": fake.id(),
         "first_name": fake.first_name(),
         "last_name": fake.last_name(),
         "email": fake.email(),
