@@ -1,0 +1,12 @@
+dataset name: inventory1
+Files:
+    Inventory:
+        - id (int)
+        - material (text)
+        - qty_kg (float)
+        - density_gcm (float) (g/ cu. cm)
+        - rate_g (float)
+Possible problem statements:
+    1. Material wise total quantity
+    2. Material wise total space occupied (cu. m)
+    3. Material wise total value

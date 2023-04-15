@@ -1,6 +1,6 @@
-from datetime import datetime, timedelta
 import random
 import uuid
+from datetime import datetime, timedelta
 
 from faker import Faker
 
@@ -71,3 +71,47 @@ class MyFaker:
     def number(self, start: float, end: float, decimal_digits: int = 0):
         assert end > start
         return round(start + ((end - start) * random.random()), decimal_digits)
+
+    def material_name(self):
+        return random.choice(
+            [
+                "Wood",
+                "Metal",
+                "Plastic",
+                "Glass",
+                "Ceramic",
+                "Stone",
+                "Leather",
+                "Fabric",
+                "Paper",
+                "Rubber",
+                "Concrete",
+                "Carbon",
+                "Fiber",
+                "Clay",
+                "Graphite",
+                "Titanium",
+                "Silver",
+                "Gold",
+                "Copper",
+                "Bronze",
+                "Aluminum",
+                "Stainless",
+                "Steel",
+                "Iron",
+                "Brass",
+                "Zinc",
+                "Nickel",
+                "Chrome",
+                "Platinum",
+                "Diamond",
+                "Emerald",
+                "Sapphire",
+                "Ruby",
+                "Quartz",
+                "Topaz",
+                "Amethyst",
+                "Opal",
+                "Pearl",
+            ]
+        )

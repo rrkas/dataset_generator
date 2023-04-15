@@ -1,4 +1,4 @@
-from . import employee, store
+from . import employee, store, inventory
 
 
 def generate_data(
@@ -11,6 +11,7 @@ def generate_data(
         employee.employee1,
         employee.employee2,
         store.store1,
+        inventory.inventory1,
     ]
 
     dataset = {dataset.__name__: dataset for dataset in datasets}[dataset_name]

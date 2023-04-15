@@ -61,3 +61,12 @@ Store datasets:
             - quantity (float)
 
 
+Inventory datasets:
+    inventory1:
+        Inventory:
+            - id (int)
+            - material (text)
+            - qty_kg (float)
+            - density_gcm (float)
+            - rate_g (float)
+
