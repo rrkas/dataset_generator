@@ -1,0 +1,11 @@
+black
+faker
+fqdn
+isoduration
+jsonpointer
+jupyter
+pandas
+pip-chill
+tqdm
+uri-template
+webcolors

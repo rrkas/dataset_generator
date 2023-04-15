@@ -1,0 +1,16 @@
+Datasets
+========
+
+Employee datasets:
+    employee1:
+        id                  - integer
+        first_name          - string
+        last_name           - string
+        email               - string
+        gender              - string
+        dob                 - date-time in ISO format (string)
+        designation         - string
+        monthly_salary      - float (2 decimal places)
+
+
+
