@@ -2,16 +2,40 @@ Datasets
 ========
 
 Employee datasets:
+    employee1:
+        Employee:
+            - emp_id (int)
+            - first_name (text)
+            - last_name (text)
+            - email (text)
+            - gender (text)
+            - dob (date)
+            - designation (text)
+            - monthly_salary (float)
 
-employee1:
-    emp_id              - integer
-    first_name          - string
-    last_name           - string
-    email               - string
-    gender              - string
-    dob                 - date-time in ISO format (string)
-    designation         - string
-    monthly_salary      - float (2 decimal places)
 
+Store datasets:
+    store1:
+        Customer:
+            - id (int)
+            - first_name (text)
+            - last_name (text)
+            - email (text)
+
+        Product:
+            - id (int)
+            - name (text)
+            - price (float)
+
+        Order:
+            - id (int)
+            - customer_id (int)
+            - date (date)
+
+        OrderItem:
+            - id (int)
+            - order_id (int)
+            - product_id (int)
+            - quantity (float)
 
 

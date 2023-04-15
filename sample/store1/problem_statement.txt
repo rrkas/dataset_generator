@@ -1,0 +1,26 @@
+dataset name: store1
+Files:
+    Customer:
+        - id (int)
+        - first_name (text)
+        - last_name (text)
+        - email (text)
+    Product:
+        - id (int)
+        - name (text)
+        - price (float)
+    Order:
+        - id (int)
+        - customer_id (int)
+        - date (date)
+    OrderItem:
+        - id (int)
+        - order_id (int)
+        - product_id (int)
+        - quantity (float)
+Possible problem statements:
+    1. Get a list of all customers who have made a purchase
+    2. Get the total revenue for a particular product
+    3. Get a list of the top 10 customers by total revenue
+    4. Get a list of all products that have never been purchased
+    5. Get the average revenue per order for each month of the year

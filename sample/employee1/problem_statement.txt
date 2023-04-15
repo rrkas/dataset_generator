@@ -1,13 +1,14 @@
-employee1:
-    emp_id              - integer
-    first_name          - string
-    last_name           - string
-    email               - string
-    gender              - string
-    dob                 - date-time in ISO format (string)
-    designation         - string
-    monthly_salary      - float (2 decimal places)
-
+dataset name: employee1
+Files:
+    Employee:
+        - emp_id (int)
+        - first_name (text)
+        - last_name (text)
+        - email (text)
+        - gender (text)
+        - dob (date)
+        - designation (text)
+        - monthly_salary (float)
 Possible problem statements:
     1. Designation wise user count
     2. Age wise user count

@@ -1,10 +1,20 @@
-from . import employee
+from . import employee, store
 
 
-def select_dataset(dataset_name: str):
+def generate_data(
+    dataset_name: str,
+    limit: int,
+    format: str,
+    output_dir: str,
+):
     datasets = [
         employee.employee1,
+        store.store1,
     ]
 
-    return {dataset.__name__: dataset for dataset in datasets}[dataset_name]
-    # return {dataset.__name__: dataset for dataset in datasets}
+    dataset = {dataset.__name__: dataset for dataset in datasets}[dataset_name]
+
+    # generate data
+    dataset(limit, format, output_dir)
+
+    return dataset
