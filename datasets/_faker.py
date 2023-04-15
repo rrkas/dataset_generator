@@ -21,6 +21,9 @@ class MyFaker:
     def uuid_hex(self):
         return str(uuid.uuid4().hex)
 
+    def name(self):
+        return fake.name()
+
     def first_name(self):
         return fake.first_name()
 

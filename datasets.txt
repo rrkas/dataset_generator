@@ -12,6 +12,28 @@ Employee datasets:
             - dob (date)
             - designation (text)
             - monthly_salary (float)
+    
+    employee2:
+        Employee:
+            - employee_id (int)
+            - first_name (text)
+            - last_name (text)
+            - birth_date (date)
+            - hire_date (date)
+            - job_title (text)
+            - department_id (int)
+
+        Department:
+            - department_id (int)
+            - department_name (text)
+
+        Salary:
+            - transaction_id (int)
+            - employee_id (int)
+            - salary (float)
+            - from_date (date)
+            - to_date (date)
+
 
 
 Store datasets:

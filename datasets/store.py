@@ -59,7 +59,7 @@ def store1(limit, format, output_dir):
         products.append(
             {
                 "id": fake.id(),
-                "name": fake.first_name(),
+                "name": fake.name(),
                 "price": fake.number(1.5, 200.5, 2),
             }
         )

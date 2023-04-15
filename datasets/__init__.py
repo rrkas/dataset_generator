@@ -9,6 +9,7 @@ def generate_data(
 ):
     datasets = [
         employee.employee1,
+        employee.employee2,
         store.store1,
     ]
 

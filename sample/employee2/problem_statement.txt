@@ -1,0 +1,25 @@
+dataset name: employee2
+Files:
+    Employee:
+        - employee_id (int)
+        - first_name (text)
+        - last_name (text)
+        - birth_date (date)
+        - hire_date (date)
+        - job_title (text)
+        - department_id (int)
+    Department:
+        - department_id (int)
+        - department_name (text)
+    Salary:
+        - transaction_id (int)
+        - employee_id (int)
+        - salary (float)
+        - from_date (date)
+        - to_date (date)
+Possible problem statements:
+    1. Get the average salary by department
+    2. Get the top 10 highest paid employees
+    3. Get the number of employees hired in each year
+    4. Get the average salary by job title
+    5. Get the departments with the highest and lowest average salaries
