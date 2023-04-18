@@ -4,6 +4,7 @@ fqdn
 isoduration
 jsonpointer
 jupyter
+openpyxl
 pandas
 pip-chill
 tqdm

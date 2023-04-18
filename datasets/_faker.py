@@ -115,3 +115,12 @@ class MyFaker:
                 "Pearl",
             ]
         )
+
+    def description(self):
+        words = []
+        for line in fake.paragraph().splitlines():
+            words.extend(line.split())
+        return " ".join(words[:15])
+
+    def choice(self, choices):
+        return random.choice(choices)

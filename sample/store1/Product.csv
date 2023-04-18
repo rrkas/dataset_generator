@@ -1,1001 +1,501 @@
 id,name,price
-1,Kathleen,149.57
-2,Jessica,182.41
-3,Gwendolyn,87.66
-4,Lindsey,170.53
-5,Emily,199.1
-6,Kaylee,163.25
-7,Martin,134.61
-8,Susan,152.0
-9,Karen,167.09
-10,Margaret,94.11
-11,Rachel,89.93
-12,Joseph,187.58
-13,Laura,179.35
-14,Ariel,128.43
-15,Karen,68.52
-16,Nicole,191.29
-17,Ryan,32.45
-18,Thomas,101.18
-19,Dana,48.5
-20,Sean,117.79
-21,Christina,17.35
-22,Brittany,47.1
-23,Mark,160.19
-24,Shawn,161.56
-25,Anthony,132.32
-26,David,120.94
-27,Brittany,190.92
-28,Cynthia,194.74
-29,Robert,170.54
-30,Brian,71.81
-31,Kyle,177.97
-32,David,161.76
-33,Dustin,71.36
-34,Beth,168.64
-35,Shannon,89.48
-36,Tina,29.32
-37,Christopher,3.14
-38,Carol,81.79
-39,Kevin,73.31
-40,Sharon,132.07
-41,Shelby,88.91
-42,Norman,81.09
-43,Joshua,72.74
-44,Mary,6.01
-45,Michael,99.89
-46,Nicholas,32.95
-47,Stephen,13.52
-48,Austin,20.66
-49,Ryan,25.18
-50,Richard,172.26
-51,Scott,192.41
-52,Thomas,199.87
-53,Eric,186.25
-54,Derek,48.38
-55,Tiffany,20.46
-56,Claudia,191.42
-57,Michelle,6.48
-58,Denise,17.2
-59,Chad,107.6
-60,Sarah,166.83
-61,Douglas,47.54
-62,Christopher,163.41
-63,Nicholas,155.91
-64,Jennifer,128.39
-65,Morgan,175.6
-66,Christopher,83.78
-67,Melissa,110.6
-68,Anthony,104.98
-69,Joseph,114.71
-70,Oscar,54.0
-71,Kimberly,197.33
-72,Heidi,119.84
-73,Joann,55.57
-74,Eric,1.79
-75,Danielle,188.56
-76,Tyler,133.27
-77,Teresa,184.69
-78,Jesse,126.91
-79,Christopher,55.35
-80,Diana,85.89
-81,Jessica,26.42
-82,April,34.62
-83,Thomas,28.16
-84,Cassandra,132.5
-85,Richard,177.29
-86,Raymond,27.99
-87,Ernest,167.56
-88,Melissa,41.95
-89,Jared,74.37
-90,Shannon,184.25
-91,Ryan,145.94
-92,Courtney,172.69
-93,Ruth,104.37
-94,Crystal,57.62
-95,Randall,143.54
-96,Chelsea,52.46
-97,Victoria,138.66
-98,Natalie,102.02
-99,Zachary,164.32
-100,Valerie,60.52
-101,Ryan,177.39
-102,Stacy,42.5
-103,Joel,120.26
-104,Taylor,190.47
-105,Desiree,145.48
-106,Elizabeth,32.87
-107,Steven,3.52
-108,William,157.0
-109,Stephen,2.36
-110,Keith,161.67
-111,Sydney,58.59
-112,Courtney,121.16
-113,Lee,179.21
-114,Sean,157.51
-115,Angela,127.61
-116,James,111.9
-117,Jonathan,123.79
-118,Jordan,10.87
-119,Tiffany,27.82
-120,Spencer,77.13
-121,Steven,7.45
-122,Erin,181.59
-123,Joshua,10.6
-124,David,25.33
-125,Katherine,131.6
-126,Zachary,73.25
-127,Richard,9.3
-128,Katherine,68.0
-129,Louis,186.28
-130,Bianca,184.13
-131,Andrea,50.1
-132,Stephen,14.27
-133,Jeremiah,141.15
-134,Tammy,123.65
-135,Chelsea,151.53
-136,Larry,125.97
-137,Isabel,100.64
-138,Christina,75.54
-139,Kathleen,91.52
-140,Lisa,32.07
-141,Eileen,21.37
-142,Karen,1.95
-143,Collin,89.06
-144,Colton,109.07
-145,Tanner,166.1
-146,Carol,149.76
-147,Tonya,31.21
-148,Jose,22.47
-149,Jonathan,107.12
-150,Steven,14.45
-151,Michele,127.27
-152,John,33.27
-153,Michael,126.6
-154,Jennifer,149.07
-155,Joseph,135.39
-156,Calvin,3.61
-157,Christina,102.46
-158,Jimmy,171.25
-159,Jennifer,158.39
-160,Kimberly,121.64
-161,James,154.83
-162,Natalie,21.34
-163,Luke,182.44
-164,Amanda,83.46
-165,James,51.13
-166,Barbara,129.1
-167,Lucas,45.1
-168,Jonathan,157.52
-169,Linda,13.83
-170,Travis,47.55
-171,John,183.48
-172,Ronald,51.42
-173,Dakota,90.86
-174,Lance,18.87
-175,Tyler,48.93
-176,Charles,77.04
-177,Sandra,181.09
-178,Steven,57.71
-179,Darin,54.51
-180,Elizabeth,170.91
-181,Taylor,4.71
-182,Traci,27.76
-183,Tara,98.37
-184,Connie,139.68
-185,Jessica,61.54
-186,Lauren,181.14
-187,Robert,24.5
-188,Steve,53.07
-189,Lisa,94.01
-190,Allison,28.66
-191,Melissa,67.25
-192,Kelli,162.72
-193,Peter,68.4
-194,Stacey,156.11
-195,Ashley,116.92
-196,Megan,176.37
-197,Beverly,29.96
-198,David,29.63
-199,Rachel,18.24
-200,Margaret,167.53
-201,Linda,64.53
-202,Susan,89.61
-203,Cassidy,30.47
-204,Robert,48.03
-205,Jonathan,136.67
-206,Veronica,43.57
-207,Pamela,150.89
-208,Matthew,196.65
-209,Joseph,99.67
-210,Victor,73.12
-211,Gary,182.65
-212,Jessica,100.11
-213,Vincent,104.65
-214,Eugene,161.03
-215,Belinda,196.97
-216,Kayla,81.64
-217,Mia,114.33
-218,Roger,123.7
-219,Brad,164.65
-220,Brenda,186.91
-221,Megan,131.58
-222,Christopher,114.89
-223,Colin,137.22
-224,Michael,153.21
-225,Stephanie,173.19
-226,Ryan,34.71
-227,David,173.19
-228,Brittany,109.38
-229,Thomas,16.49
-230,Gregory,154.46
-231,James,124.31
-232,Jeffrey,177.73
-233,Julie,173.61
-234,Stephanie,164.48
-235,Destiny,97.0
-236,Dean,180.56
-237,Monica,137.33
-238,Melissa,27.73
-239,Brandon,82.39
-240,Kimberly,149.6
-241,Bryan,39.44
-242,Suzanne,168.19
-243,Samuel,164.14
-244,Ann,187.65
-245,Joseph,155.58
-246,Shawn,60.22
-247,Aaron,167.74
-248,Michael,162.31
-249,Teresa,97.23
-250,Annette,72.83
-251,Kaitlyn,52.95
-252,Sean,137.97
-253,Janet,169.77
-254,David,106.94
-255,Brenda,83.9
-256,Jesse,74.68
-257,Sheila,80.32
-258,Elaine,96.15
-259,Melissa,134.92
-260,Bradley,66.19
-261,Kenneth,128.73
-262,Heather,124.91
-263,Matthew,197.66
-264,Patricia,64.12
-265,Lisa,29.71
-266,Amber,9.9
-267,Lawrence,105.73
-268,Walter,92.25
-269,Lori,94.53
-270,Michelle,133.71
-271,Daniel,156.12
-272,Margaret,70.75
-273,Brenda,40.21
-274,Anna,100.05
-275,Savannah,7.84
-276,Heidi,196.61
-277,Victoria,18.18
-278,Jon,131.2
-279,Matthew,28.16
-280,Mark,130.46
-281,Elizabeth,98.23
-282,Richard,87.66
-283,Jacob,109.98
-284,Robin,150.71
-285,Steven,24.77
-286,Ricky,109.38
-287,John,158.11
-288,Nicholas,163.71
-289,Kelly,98.37
-290,Stefanie,121.19
-291,Debra,71.32
-292,Christy,14.88
-293,Gina,134.36
-294,Kathryn,121.3
-295,Jacqueline,90.54
-296,Wendy,112.0
-297,Andrea,42.15
-298,Christopher,159.32
-299,Ashley,23.07
-300,Emily,197.85
-301,Tracie,186.7
-302,Gregory,101.52
-303,Elizabeth,147.52
-304,Joshua,65.8
-305,Zachary,34.94
-306,Anthony,37.75
-307,Jeremy,171.14
-308,Kenneth,95.96
-309,Rachel,84.27
-310,David,75.18
-311,Devin,40.21
-312,Michelle,140.38
-313,Daisy,97.62
-314,Diana,180.39
-315,Jerry,97.54
-316,Jodi,81.81
-317,Melissa,11.17
-318,Timothy,183.96
-319,Nicole,157.57
-320,Donna,123.09
-321,Melissa,82.03
-322,Rachel,171.33
-323,Keith,24.12
-324,Michael,165.05
-325,Timothy,136.19
-326,Joseph,117.79
-327,Raymond,88.47
-328,Richard,167.0
-329,Mary,111.12
-330,Jill,149.93
-331,Patricia,156.06
-332,Brian,113.95
-333,Sean,95.88
-334,Paul,183.79
-335,Karen,84.63
-336,Garrett,29.48
-337,Heidi,14.74
-338,Frank,61.17
-339,Sandra,36.29
-340,Joseph,82.84
-341,Julia,37.14
-342,Scott,121.58
-343,Sonya,68.23
-344,Christopher,61.49
-345,Jesse,169.55
-346,Andrea,126.45
-347,David,136.13
-348,Kimberly,38.53
-349,Logan,84.68
-350,Lynn,157.11
-351,Alan,20.94
-352,Matthew,192.68
-353,Jacob,63.1
-354,Jonathan,53.53
-355,Patrick,99.37
-356,Lance,113.85
-357,Mary,82.08
-358,John,73.68
-359,Michael,194.12
-360,Christopher,92.89
-361,Jimmy,200.16
-362,Mario,159.04
-363,David,183.82
-364,Cynthia,193.86
-365,Monica,76.22
-366,Tyler,37.64
-367,Adam,37.48
-368,Curtis,6.33
-369,Anthony,185.37
-370,Rhonda,122.5
-371,Michael,140.66
-372,Alyssa,143.28
-373,Ethan,133.72
-374,Angela,151.42
-375,Tammy,42.9
-376,Marilyn,197.21
-377,Juan,188.33
-378,Kimberly,21.49
-379,David,116.12
-380,Don,129.98
-381,Tamara,125.24
-382,Marcus,57.15
-383,Sydney,12.21
-384,Shannon,187.36
-385,Kathy,112.58
-386,Laura,94.62
-387,Emily,46.63
-388,Claudia,187.94
-389,Cody,46.37
-390,Robert,140.6
-391,Brent,186.1
-392,Shelley,71.31
-393,Tina,65.4
-394,Joseph,22.88
-395,James,5.59
-396,Joseph,56.47
-397,Jesse,144.8
-398,John,47.96
-399,Amy,117.08
-400,Renee,188.38
-401,Lisa,93.73
-402,Jordan,42.04
-403,Susan,22.54
-404,Crystal,170.14
-405,Billy,5.58
-406,Jason,49.45
-407,Katherine,194.59
-408,Susan,122.63
-409,Jasmine,88.0
-410,Shawn,198.65
-411,Tamara,140.27
-412,Robert,74.91
-413,Lindsay,112.67
-414,Jennifer,90.55
-415,Francisco,4.34
-416,Linda,114.38
-417,Jessica,65.43
-418,Cynthia,26.56
-419,Tiffany,105.48
-420,Austin,11.31
-421,Brianna,78.95
-422,Marcus,44.82
-423,Jim,17.91
-424,Robert,16.8
-425,Jennifer,98.07
-426,Megan,53.01
-427,Diane,38.22
-428,Chelsey,77.11
-429,George,104.41
-430,Ashley,180.46
-431,Sierra,146.09
-432,David,185.05
-433,Lori,78.55
-434,Erica,196.12
-435,Ann,168.85
-436,Patricia,106.44
-437,Michael,39.36
-438,Candice,166.88
-439,Anna,3.6
-440,Ellen,169.47
-441,Robert,92.04
-442,Alexander,188.61
-443,Stephanie,32.35
-444,Cynthia,91.17
-445,Carlos,105.52
-446,Melvin,12.59
-447,Bryan,68.78
-448,Matthew,17.84
-449,Matthew,130.19
-450,Allison,167.07
-451,Katie,34.16
-452,Joseph,39.55
-453,Jody,93.75
-454,Michael,178.09
-455,Stephanie,91.63
-456,Veronica,9.07
-457,Peter,131.83
-458,Mark,102.66
-459,Benjamin,21.62
-460,Nicholas,152.31
-461,Stephanie,40.66
-462,Annette,115.55
-463,Tina,69.59
-464,Sean,86.05
-465,Paul,75.81
-466,Luke,95.33
-467,Sarah,159.35
-468,Kenneth,69.41
-469,Hailey,20.78
-470,Brandon,92.91
-471,Vincent,28.8
-472,William,23.69
-473,Amanda,46.69
-474,Samantha,52.27
-475,Ashley,94.82
-476,Bethany,55.69
-477,David,111.28
-478,Christine,197.53
-479,Carlos,46.82
-480,Mary,62.33
-481,Justin,71.25
-482,Sarah,7.51
-483,Brooke,21.61
-484,Joanna,74.74
-485,Janice,74.82
-486,Mike,166.17
-487,Charles,21.67
-488,Francisco,114.25
-489,Lisa,55.96
-490,Lydia,186.35
-491,Bradley,102.9
-492,Sandra,114.61
-493,Steven,197.25
-494,Antonio,136.21
-495,John,177.53
-496,Daniel,109.53
-497,Paul,164.35
-498,James,167.9
-499,Brianna,139.61
-500,Travis,3.53
-501,Linda,133.56
-502,Rebecca,114.04
-503,Julie,38.97
-504,Melissa,63.44
-505,David,56.44
-506,William,116.64
-507,Jessica,14.79
-508,John,165.37
-509,Laura,40.83
-510,Gordon,97.02
-511,Travis,39.44
-512,Vanessa,162.34
-513,Bethany,133.62
-514,David,44.29
-515,Brittany,139.08
-516,Alexander,148.2
-517,Steven,87.1
-518,Lisa,27.73
-519,Monique,151.19
-520,Randy,68.36
-521,Angela,4.27
-522,Lisa,124.05
-523,Eric,178.11
-524,Stephanie,61.29
-525,Rachel,46.07
-526,Amanda,25.48
-527,Anna,88.25
-528,Amanda,98.93
-529,Eduardo,33.39
-530,Charles,41.75
-531,Jill,38.15
-532,Angela,92.63
-533,Karen,70.59
-534,Brandon,148.6
-535,Gregory,142.32
-536,Jonathan,147.32
-537,Marie,46.93
-538,John,187.96
-539,Alan,49.63
-540,Tyler,67.51
-541,Jim,162.16
-542,Donna,37.06
-543,Holly,7.65
-544,Timothy,91.39
-545,Michael,192.11
-546,Andrew,53.03
-547,Mary,19.2
-548,Julia,96.33
-549,Hannah,138.11
-550,Jared,71.68
-551,Desiree,148.22
-552,Luis,42.38
-553,Gabriel,61.78
-554,Erika,183.22
-555,Kelly,4.05
-556,Michael,178.02
-557,Jesse,15.15
-558,Elizabeth,67.21
-559,Brenda,188.46
-560,Anthony,190.51
-561,Robin,36.61
-562,Dylan,27.75
-563,Bryan,57.61
-564,Jennifer,192.81
-565,Randy,25.97
-566,Kevin,25.29
-567,Dustin,162.48
-568,Charles,189.27
-569,Jason,154.82
-570,Kari,6.47
-571,Shawn,17.48
-572,Eric,34.42
-573,Tiffany,178.64
-574,Anthony,122.61
-575,Elizabeth,134.96
-576,Lindsey,187.42
-577,Douglas,174.63
-578,Kathryn,157.38
-579,Howard,95.04
-580,Jessica,77.56
-581,Michelle,139.43
-582,Carmen,154.47
-583,Albert,86.95
-584,Elizabeth,116.73
-585,Kelli,145.77
-586,Derek,40.11
-587,Travis,47.09
-588,Julia,147.03
-589,Adrian,82.25
-590,Joshua,54.03
-591,Danielle,48.95
-592,Christopher,147.32
-593,Micheal,90.44
-594,Paul,45.14
-595,Anna,43.75
-596,Danielle,63.67
-597,Brittany,21.6
-598,Patrick,199.77
-599,Peter,161.16
-600,Bruce,94.29
-601,Edward,119.61
-602,Matthew,72.62
-603,Rebecca,11.2
-604,Timothy,72.94
-605,Matthew,113.12
-606,Jennifer,24.4
-607,Sean,125.06
-608,Thomas,154.1
-609,Kimberly,5.46
-610,Glenn,153.83
-611,Anthony,26.07
-612,Audrey,23.2
-613,Cynthia,185.43
-614,Gabriel,136.1
-615,Lynn,68.99
-616,Christina,192.21
-617,Gina,142.31
-618,Carrie,106.74
-619,Sharon,122.79
-620,Steven,142.35
-621,Nancy,25.49
-622,Misty,111.83
-623,Erika,78.41
-624,Laura,21.92
-625,Madison,67.3
-626,David,36.51
-627,Carol,150.34
-628,Lisa,127.4
-629,Loretta,59.89
-630,Jordan,4.63
-631,Christy,46.67
-632,Jimmy,167.27
-633,Lisa,3.84
-634,Andrew,56.21
-635,Justin,66.11
-636,Tracy,136.34
-637,Maria,101.18
-638,Richard,115.01
-639,Carl,141.49
-640,Kristi,106.76
-641,William,5.13
-642,Elizabeth,122.6
-643,Amber,127.61
-644,Elizabeth,122.52
-645,Nichole,70.27
-646,Caleb,191.5
-647,Collin,5.7
-648,Jason,136.01
-649,Annette,62.74
-650,Holly,113.1
-651,Maria,194.06
-652,Jason,90.84
-653,William,18.16
-654,Tyrone,191.85
-655,April,77.02
-656,Amy,137.24
-657,James,88.83
-658,George,200.35
-659,Sara,186.64
-660,Shannon,124.73
-661,Kelli,66.38
-662,Rita,40.2
-663,John,187.95
-664,Johnny,10.63
-665,Elizabeth,35.09
-666,Thomas,157.17
-667,Alexis,112.76
-668,Robert,164.3
-669,Daniel,79.27
-670,Terri,10.79
-671,Tracy,33.76
-672,Jorge,189.58
-673,Julie,113.29
-674,Michael,72.05
-675,Kristina,24.14
-676,Crystal,79.01
-677,Joseph,119.81
-678,Bruce,41.7
-679,Richard,131.83
-680,Anthony,107.59
-681,Sandra,128.15
-682,Jason,48.25
-683,Cody,143.86
-684,Adrian,134.33
-685,Kristina,73.39
-686,Arthur,37.09
-687,Joy,43.63
-688,Christopher,197.17
-689,John,40.3
-690,Morgan,190.08
-691,Leslie,37.85
-692,Vincent,85.72
-693,Lucas,106.09
-694,Michael,27.32
-695,Linda,7.62
-696,Derek,111.03
-697,Marc,72.25
-698,Emily,131.03
-699,Gabriela,183.16
-700,Brittney,120.6
-701,Brandon,94.62
-702,Jared,22.49
-703,Jenna,197.84
-704,Brian,100.91
-705,James,97.17
-706,Edward,7.97
-707,Katherine,70.86
-708,Tiffany,165.61
-709,Jose,125.65
-710,Katherine,163.5
-711,Jennifer,163.04
-712,Briana,88.8
-713,Dylan,145.76
-714,Paul,38.04
-715,Samantha,5.41
-716,Erik,138.18
-717,George,55.22
-718,Donna,95.73
-719,Ryan,105.48
-720,Michael,162.45
-721,Gabriel,93.1
-722,James,58.46
-723,Matthew,175.12
-724,Stephanie,119.79
-725,Steven,173.15
-726,Jermaine,146.81
-727,Robert,151.18
-728,Linda,47.36
-729,Matthew,123.67
-730,Jennifer,193.7
-731,Michele,27.92
-732,Jennifer,194.1
-733,Hayley,24.85
-734,Jeremy,106.2
-735,David,8.05
-736,Melanie,96.81
-737,Pamela,61.1
-738,Michael,177.15
-739,James,43.38
-740,Cindy,175.39
-741,Darryl,55.37
-742,Kimberly,41.56
-743,Maria,162.24
-744,Paige,94.44
-745,Anna,103.72
-746,Christopher,20.15
-747,Connie,175.01
-748,Kenneth,148.99
-749,Katie,164.52
-750,Misty,114.96
-751,Jonathan,34.09
-752,Michael,12.29
-753,Yvonne,145.54
-754,Laura,13.59
-755,Ryan,99.11
-756,Vanessa,36.94
-757,Hannah,50.43
-758,Monica,124.81
-759,Katherine,134.19
-760,Robert,8.88
-761,Sheila,186.77
-762,Daniel,104.29
-763,Cynthia,122.89
-764,Sarah,175.66
-765,Christopher,154.2
-766,Matthew,161.01
-767,Kenneth,117.06
-768,Christopher,62.16
-769,Adam,97.33
-770,Dana,172.17
-771,Willie,57.22
-772,Matthew,113.7
-773,Michele,63.49
-774,Daniel,111.31
-775,Duane,46.69
-776,Julia,72.07
-777,Stephanie,18.22
-778,Evan,69.2
-779,Andrew,39.87
-780,Brittany,57.5
-781,Christina,43.36
-782,Julia,51.96
-783,Jessica,164.41
-784,Amy,154.17
-785,Ashley,172.51
-786,George,173.82
-787,Martin,25.99
-788,Carrie,43.03
-789,Elizabeth,107.01
-790,Jared,21.07
-791,Carla,65.53
-792,Christopher,13.63
-793,Antonio,97.04
-794,Deborah,32.38
-795,Adrienne,103.92
-796,Mark,12.96
-797,Anthony,187.64
-798,George,31.32
-799,James,67.26
-800,Jordan,200.06
-801,Lisa,3.04
-802,Shelly,197.02
-803,Kimberly,130.14
-804,Jessica,16.1
-805,Daniel,88.42
-806,Courtney,56.59
-807,Billy,145.3
-808,Chad,87.71
-809,Hannah,191.84
-810,James,194.79
-811,Dana,69.9
-812,Alejandra,158.46
-813,Jeffrey,96.14
-814,Jamie,167.73
-815,April,142.63
-816,Jessica,34.17
-817,Zachary,191.56
-818,Kendra,187.7
-819,Sara,161.83
-820,Tonya,179.96
-821,Dana,124.76
-822,Donna,133.09
-823,Alice,137.34
-824,Emily,4.13
-825,Richard,198.45
-826,Laura,116.39
-827,Ashley,24.38
-828,Lisa,71.81
-829,Jacob,78.55
-830,Jessica,21.58
-831,Laura,44.21
-832,Christopher,47.5
-833,Michael,163.16
-834,Annette,192.69
-835,Curtis,100.51
-836,Cynthia,47.67
-837,Danielle,145.06
-838,Christopher,63.41
-839,Tim,199.3
-840,Dawn,132.77
-841,Robert,106.89
-842,Mindy,64.23
-843,Kevin,125.91
-844,Monica,59.91
-845,Brianna,29.88
-846,Karen,29.73
-847,Mike,7.83
-848,Brittany,50.46
-849,Melanie,192.75
-850,Joshua,114.71
-851,Jeremy,108.79
-852,Rickey,103.47
-853,Holly,189.28
-854,Michael,134.79
-855,Harold,187.87
-856,Renee,72.01
-857,Seth,19.12
-858,Gregory,17.2
-859,Sara,195.77
-860,Danny,192.43
-861,Miranda,53.75
-862,James,104.02
-863,Eric,56.74
-864,Stephanie,59.28
-865,Chad,8.66
-866,Brett,26.64
-867,Brian,101.24
-868,Trevor,83.58
-869,John,60.69
-870,Robert,146.62
-871,Richard,3.79
-872,James,143.84
-873,James,41.39
-874,Frank,53.31
-875,John,105.01
-876,Gabriel,175.88
-877,William,148.67
-878,Jason,113.65
-879,Veronica,66.34
-880,Paul,105.92
-881,Paige,88.88
-882,Joanne,131.7
-883,Corey,73.69
-884,Shari,30.31
-885,Kara,168.72
-886,Kevin,91.2
-887,Amanda,106.8
-888,Curtis,191.88
-889,Joyce,191.57
-890,Justin,131.82
-891,William,138.59
-892,Maria,174.21
-893,Elizabeth,34.39
-894,Veronica,95.15
-895,Travis,7.36
-896,Courtney,95.57
-897,Christie,151.91
-898,Andrea,71.69
-899,Cassandra,82.43
-900,Catherine,91.65
-901,Andrea,74.54
-902,Scott,94.73
-903,Robert,142.54
-904,Jon,82.34
-905,Charles,36.28
-906,Kristina,53.43
-907,Pamela,88.28
-908,Mark,148.88
-909,Holly,158.25
-910,Patrick,129.68
-911,Jill,6.71
-912,John,160.31
-913,Jillian,99.26
-914,Robert,105.56
-915,Eddie,104.54
-916,Melissa,7.41
-917,Troy,63.01
-918,Diane,118.13
-919,Pamela,106.35
-920,Gregory,192.89
-921,Renee,26.95
-922,Kristy,125.12
-923,Emily,129.8
-924,Tiffany,56.21
-925,Cody,15.63
-926,Alicia,47.5
-927,Cynthia,150.23
-928,Natalie,39.74
-929,Holly,159.93
-930,Kimberly,59.7
-931,Kyle,192.86
-932,Kevin,5.19
-933,Kylie,123.22
-934,Cole,70.02
-935,Sara,139.81
-936,Rachael,116.99
-937,Susan,115.37
-938,Tammy,174.75
-939,Ashley,162.44
-940,Randall,38.69
-941,Anthony,48.2
-942,Alison,6.5
-943,Darrell,52.72
-944,Cindy,116.08
-945,Joseph,196.59
-946,Mark,117.33
-947,Lawrence,197.34
-948,Danielle,163.33
-949,Justin,125.62
-950,Ian,72.77
-951,Christopher,30.92
-952,Russell,57.44
-953,Brooke,122.39
-954,Christopher,2.79
-955,Stacy,152.81
-956,Danielle,120.72
-957,Nicole,147.33
-958,Nancy,149.65
-959,Taylor,181.74
-960,Diane,134.82
-961,Javier,187.69
-962,Jason,183.39
-963,Matthew,109.01
-964,Jane,62.21
-965,Jonathan,124.13
-966,Kevin,31.12
-967,Alexis,112.16
-968,Donald,127.53
-969,Levi,32.29
-970,Dustin,118.52
-971,Justin,75.75
-972,Tony,41.03
-973,Diane,35.15
-974,Mark,90.03
-975,Brenda,97.63
-976,Christopher,195.39
-977,Crystal,35.06
-978,Glenn,116.18
-979,Devon,108.03
-980,Kathleen,153.2
-981,Timothy,172.93
-982,Paula,145.53
-983,Jason,104.28
-984,Adam,142.17
-985,Kristin,154.01
-986,Todd,61.01
-987,Cindy,194.24
-988,Brandi,32.55
-989,Sandra,13.52
-990,Micheal,12.37
-991,Amy,132.77
-992,Angela,8.05
-993,Michael,141.17
-994,Steven,11.44
-995,Erik,8.35
-996,Jeremy,23.63
-997,Russell,61.4
-998,Theresa,198.0
-999,Ronald,16.89
-1000,Michael,44.11
+1,Jeff Wilson,47.8
+2,Yolanda Martinez,161.39
+3,Lauren Richard,83.47
+4,Mario Scott,59.08
+5,Teresa Smith,18.28
+6,Teresa Kirk,156.63
+7,Eileen Torres,106.93
+8,Timothy Kirby,128.59
+9,Tiffany Miller,113.72
+10,Diana Walton,113.88
+11,Jessica Pacheco,28.51
+12,Gabriel White DDS,161.08
+13,Carolyn Shaw,19.43
+14,Mr. Joseph Daniels,57.87
+15,John Anthony,10.6
+16,Jo Hill,83.22
+17,Nicole Kirk,28.24
+18,Mrs. Kristin Olson,94.49
+19,Ian Elliott,67.27
+20,Jason Marquez II,114.33
+21,Michael Miller,182.02
+22,Nicholas Charles,19.5
+23,Kayla Orr,197.28
+24,Lee Vincent,135.26
+25,Jennifer Howard,71.44
+26,Sandra Ellis,39.08
+27,Jessica Mata,172.41
+28,Nicole Cummings,66.94
+29,Jessica Hernandez,57.19
+30,Dakota Ballard,19.44
+31,Mrs. Margaret Bass DDS,82.37
+32,Curtis Flores,34.19
+33,Brad Herrera,103.15
+34,Emily Moore,150.02
+35,Lisa Huang,75.22
+36,Brian Burke,103.3
+37,Dr. Melissa May,154.86
+38,Kathryn Mcgrath,58.37
+39,Jennifer Mann,122.9
+40,Ann Gilbert,130.85
+41,Linda Tate,79.65
+42,Mary Martin,47.42
+43,Jody Duncan,190.13
+44,Marvin Robbins,96.55
+45,Scott Wilson,168.11
+46,Michelle Johnson,153.17
+47,Kimberly Wright,189.75
+48,Thomas Martin,159.42
+49,Dylan Hays,181.69
+50,Patrick Lewis,147.11
+51,Gabrielle Sloan,23.16
+52,Andrew Maynard,148.48
+53,Terri Wright,8.78
+54,Vanessa Young,58.0
+55,Jacob Stevens,42.87
+56,Angela Foster MD,23.79
+57,Levi Williamson,12.29
+58,Lisa Ferrell,34.24
+59,Jason Sweeney,93.78
+60,Alexander Smith,48.22
+61,Keith Nguyen,164.08
+62,Dr. Brandon Johnson Jr.,93.12
+63,Mary Smith,53.75
+64,Sharon Long,70.97
+65,Roger Ward,25.35
+66,Gina Simpson,41.34
+67,John Howard,52.52
+68,Daniel Taylor,53.72
+69,Kimberly Taylor,130.8
+70,Heather Adkins,199.31
+71,Jacob Jarvis,28.44
+72,Steven Pierce,116.48
+73,Jeremy Ramirez,96.17
+74,Andrea Cowan,128.48
+75,Jessica Moses,142.09
+76,Ashley Martinez,31.38
+77,Taylor Williamson,100.32
+78,Ronald Martin,100.92
+79,Tammy Anderson,113.27
+80,Brianna Ortiz,111.66
+81,Shannon Dickerson,20.38
+82,Scott Johnson,101.53
+83,Robert Kennedy,67.45
+84,Samuel Johnson,2.48
+85,John Jackson,30.12
+86,Michael Hernandez,158.68
+87,Samantha Booker,170.76
+88,Donald Jennings,159.22
+89,Christopher Ashley,91.19
+90,Ashley Evans,101.56
+91,Katherine Davis,151.05
+92,Jacob Keith,122.15
+93,Bailey Jimenez,51.9
+94,Michael Rogers,129.68
+95,Kara Marks,88.65
+96,Susan Carey,169.11
+97,Luke Skinner,15.6
+98,Christina Morrison,76.71
+99,Kimberly Medina,104.78
+100,Patrick Nelson,70.21
+101,Erica Morris,146.37
+102,Robert Marshall,117.38
+103,Debra Sullivan,188.81
+104,Angela May,152.57
+105,Steven Cannon,122.59
+106,Karl Randall,53.52
+107,Ashley Hall DDS,162.23
+108,Samuel Singleton,27.99
+109,Fernando Mccann,183.24
+110,Samantha Hurst,120.56
+111,Thomas Anderson,63.69
+112,Dylan Salinas,163.71
+113,Victoria Gonzalez,42.02
+114,Autumn Deleon,98.36
+115,Penny Martinez,158.47
+116,Eric Perez,54.81
+117,Kayla Cruz,60.38
+118,Cathy Hunter,27.15
+119,Monique Smith,148.09
+120,Kenneth Smith,69.62
+121,Christopher Griffin,48.67
+122,Nicole Salazar,66.13
+123,Eric Trujillo,113.15
+124,Christopher Henry,171.56
+125,Paul Williams,49.58
+126,Kathryn Valdez,164.55
+127,Daniel Wright,98.21
+128,Benjamin Smith,167.05
+129,Carol Vaughn,151.28
+130,Hannah Powell,81.18
+131,Pamela Harris,89.62
+132,Leslie Ayala,106.37
+133,Sean Berry,142.27
+134,William Christensen,39.09
+135,Omar Smith,152.53
+136,Jordan Pennington,98.28
+137,Victor Perez,135.7
+138,Robert Fleming,46.96
+139,Betty Delacruz,23.81
+140,Mitchell Medina,140.26
+141,Daniel Wilson,96.31
+142,Christopher Bishop,73.51
+143,Ross Williamson,54.79
+144,Pamela Lewis,178.66
+145,Ashley Johnson,122.11
+146,Sarah Bradshaw,108.14
+147,Emily Wagner,166.64
+148,Jacob Kennedy,68.59
+149,David Lloyd,42.39
+150,Jennifer Miller,132.95
+151,Jessica Smith,32.13
+152,Michael Harris,168.61
+153,Carol Rivera,182.01
+154,Brian Yang,113.43
+155,Timothy Watkins,122.55
+156,Michele Navarro,130.29
+157,Kimberly Phillips,181.11
+158,Morgan Lozano,81.76
+159,Mary Gentry,70.67
+160,Debra Zimmerman,102.75
+161,Courtney Cook,23.35
+162,Douglas Garcia,185.59
+163,Carol Hernandez,184.64
+164,Kathleen Young,9.77
+165,Leslie Ingram,28.4
+166,Paul Sanders,195.96
+167,Erin Powers,131.76
+168,Ryan Reynolds,177.41
+169,Mr. Charles Evans,95.17
+170,Amanda Davis,187.3
+171,Gina Cooper,152.13
+172,Anita Horton,72.82
+173,Taylor Miller DDS,98.43
+174,Benjamin Brewer,114.34
+175,Jamie Cameron,38.04
+176,Timothy Trujillo,25.83
+177,Denise Lambert,70.55
+178,Edward Foley,96.85
+179,Stacey Taylor,129.12
+180,Samuel Johnson,170.89
+181,Joseph Davis,65.82
+182,Miguel Serrano,10.67
+183,Laura Mcdowell,87.44
+184,Anita Jones,179.22
+185,Mr. Garrett Gonzalez,110.37
+186,Sandra Tapia,166.37
+187,Lisa Warren,131.48
+188,Jimmy Gordon,50.14
+189,Christopher Johnston,160.69
+190,Christie Wiggins,81.18
+191,Kelly Moore,11.16
+192,John Lopez,115.29
+193,Joshua Wilson,139.86
+194,Robin Howell,143.29
+195,Tyler Johnson,67.63
+196,Andrea Thomas,93.18
+197,Deborah Williams,143.17
+198,Misty Jimenez,177.22
+199,Mark Downs,117.03
+200,Gilbert White,115.66
+201,Nicholas Gregory,60.01
+202,Kim Jones,171.09
+203,Katherine Anderson,77.7
+204,Ashley Norton,170.66
+205,Chelsea Anderson,131.21
+206,Matthew Curtis,139.52
+207,Heather Harris,84.88
+208,Elizabeth Sims,85.9
+209,Thomas Mata,121.66
+210,Melanie Peck,105.67
+211,Michael Andrade,136.49
+212,Patrick Sharp,161.63
+213,Tina Barnett,114.12
+214,Madeline Cole,43.8
+215,Zachary Day,63.31
+216,Kristine Robbins,147.11
+217,Christopher Franklin,134.52
+218,Rickey Lloyd,91.88
+219,Stephanie Kennedy,108.54
+220,Meredith Phillips,148.62
+221,Denise Alexander,44.64
+222,Lindsey Ward,194.28
+223,Taylor Wiley,9.7
+224,Jamie Vasquez,98.96
+225,Jessica Perry,146.93
+226,Elizabeth Miranda,151.89
+227,Shannon Dudley,177.38
+228,Daniel Diaz,77.7
+229,Chad Rivas,47.53
+230,Joshua Adkins,40.03
+231,Aaron Snow,126.24
+232,Rhonda Peck,195.86
+233,Jennifer Black,157.39
+234,Brendan Armstrong,19.81
+235,Andrew Duncan,128.65
+236,Larry Hoover,172.61
+237,Debra Stone,112.71
+238,Krista Rivas,119.3
+239,Amanda Boyle,73.6
+240,Catherine Howe,187.34
+241,Dana Allen,11.49
+242,Angela Brown,56.85
+243,Ashley Pierce,108.09
+244,Amanda Jones,5.25
+245,Richard Brady,111.59
+246,Madeline Chase,14.49
+247,Sarah Smith,15.47
+248,Victoria Moore,78.07
+249,Leroy Reyes,175.25
+250,Sarah Martinez,191.3
+251,Christina Weaver,196.26
+252,Stephanie Shea,62.53
+253,Jacqueline Stevenson,39.56
+254,Karen Thompson,154.35
+255,Jackie House,75.23
+256,Christina Hernandez,110.78
+257,Jeremy Everett,87.28
+258,Jason Thomas,106.62
+259,Travis Woods,187.4
+260,Michelle Peterson,186.61
+261,Thomas Stephens,51.83
+262,Mrs. Kimberly Moore,110.34
+263,Jasmine Thompson,17.61
+264,Brian Dillon,70.7
+265,Amanda Williams,66.74
+266,Joseph Mclean,86.06
+267,Sara Parker,172.21
+268,Cynthia Figueroa,129.88
+269,Jacob Gould,196.23
+270,Margaret Allen,199.33
+271,Darin Wong,26.21
+272,Raymond Carpenter,155.72
+273,Michelle Matthews,173.14
+274,Mr. Terry Jones,145.35
+275,Anthony Nelson,187.56
+276,Sean Cruz,99.3
+277,Joseph Dominguez,160.32
+278,Phillip White,9.39
+279,Scott Lewis,20.05
+280,Jasmine Clark,90.58
+281,Mr. Nathan Hurley,39.32
+282,Mark Johnson,161.69
+283,Roger Guerrero,53.34
+284,Mr. Kevin Williams Jr.,80.76
+285,Michael Gilbert,128.27
+286,Olivia Cantu,66.26
+287,Karen Wilson,106.83
+288,Maria Schultz,70.2
+289,James Taylor,187.85
+290,Sarah Clark,7.11
+291,Larry Cook,9.01
+292,Nathaniel Estes,35.74
+293,Melissa Scott,85.88
+294,Caitlin Butler,63.75
+295,Tom Lee,179.91
+296,Tracy Logan,81.4
+297,Victoria Wang,111.94
+298,Lisa Peterson,13.46
+299,Mark Nguyen,59.7
+300,Nicole Estes,110.04
+301,David Myers,140.04
+302,Dennis Richardson,63.24
+303,Melissa Taylor,41.89
+304,Kristen Porter,116.24
+305,Emily Wall,84.86
+306,Joshua Johnson,36.24
+307,Kathryn Gardner,178.79
+308,Brett Olson,194.07
+309,Justin Phillips,25.06
+310,Lauren Rodriguez,171.24
+311,Nicole Payne,93.85
+312,Veronica Farmer,43.14
+313,Debra Taylor,69.97
+314,Alexis Randall,5.92
+315,Dr. James Reeves,120.98
+316,Candice Gamble,93.95
+317,Edward Gray MD,33.93
+318,Alexander Velez,39.28
+319,Shawn Murray,32.24
+320,Donna Hernandez,11.89
+321,Christine Reese,43.44
+322,Shane Odonnell,22.85
+323,Courtney Kelley,71.3
+324,Matthew Lawson,70.38
+325,Jennifer Braun,60.89
+326,Julie Thompson,153.27
+327,Leslie Bailey,156.31
+328,Andrew Mayo,96.04
+329,John Hutchinson,43.13
+330,Lisa Banks,119.11
+331,Kathleen Guzman,108.43
+332,Gregory Macdonald,9.07
+333,Robert Dean,61.35
+334,Christina Park,104.34
+335,Timothy Olsen,62.45
+336,Adam Carr,148.22
+337,Robert Ramirez,167.85
+338,Ellen Lewis,188.11
+339,Michael Tanner,55.88
+340,Mark Fleming,191.37
+341,Jodi Carey,32.79
+342,Dean Acosta,80.97
+343,Thomas Jones,126.56
+344,Kristina Hebert,151.78
+345,Lauren Singleton,171.2
+346,Angela Smith,28.2
+347,David Ferguson,2.98
+348,Victor Garrett,141.7
+349,Matthew Morse,176.0
+350,Dr. David Rodriguez,194.76
+351,David Dixon,175.23
+352,Maurice Johnson,171.11
+353,Thomas Cooper,141.37
+354,Robert Lynch,42.58
+355,Sharon Spears,63.1
+356,Amber Velazquez MD,117.18
+357,Victoria Boyd,116.35
+358,Kathleen Foster,186.38
+359,Victor Larsen,24.64
+360,Matthew Rivera,156.83
+361,Theresa Hanson,121.28
+362,Maria Fox,199.78
+363,Frances Ryan DVM,31.58
+364,Adam Hanson,162.29
+365,Nathan Owens,178.58
+366,Amy Owen MD,106.99
+367,Melissa Hogan,23.61
+368,Frederick Lane,113.77
+369,Brian Gonzales,67.75
+370,Alyssa Griffith,97.15
+371,Ryan Rubio,170.92
+372,Michele Sanford,96.79
+373,Kathleen Livingston,1.94
+374,Gerald Fletcher,4.39
+375,Emily Williams,128.63
+376,Steven Clark,10.98
+377,Johnny Chapman,193.35
+378,Michelle White,77.28
+379,Jordan Mccarthy,85.14
+380,Devon Johnson,15.01
+381,Joanne Gilmore,7.6
+382,Carl Rocha,80.37
+383,Leslie Mendoza,102.47
+384,Latasha Russo,101.9
+385,Jessica Wright,69.91
+386,Shelby Cooper,184.11
+387,Chad Pace,168.67
+388,Sandra Lewis,33.81
+389,Steven Lee,31.33
+390,Charles Johnston,179.7
+391,John Lewis,9.11
+392,Lisa Marshall,147.62
+393,Alan Phillips,66.48
+394,Pamela Davis,166.29
+395,Stephanie Green,172.59
+396,Robert Hoffman,103.74
+397,Alexandra Sanders,97.6
+398,Monica Cooper,116.71
+399,Thomas Mayer,108.28
+400,Daniel Tate,173.1
+401,Matthew Frank,124.47
+402,Arthur Turner,111.31
+403,Isabella Rivera,8.12
+404,Craig Conley,116.54
+405,Eric Chambers,191.9
+406,Jonathan Wise,122.78
+407,Lori Jones,45.76
+408,Alyssa Campbell,65.62
+409,Katrina Bush,13.82
+410,Dr. Kiara Smith,139.74
+411,Gabriel Hobbs,108.11
+412,Jeff Johnson,163.2
+413,Brandon Joseph,6.75
+414,Frederick Woods,151.5
+415,Melanie Vasquez,19.19
+416,Alan Owens,84.82
+417,Kelly Stevens,52.76
+418,Danielle Rodriguez,141.41
+419,John Powell,99.43
+420,Jennifer Adams,53.92
+421,Brett Hatfield,152.33
+422,Olivia Wise,80.12
+423,Ian Mills,129.14
+424,Andrew Hall,60.23
+425,Arthur Downs,63.01
+426,Andrew Castillo,97.19
+427,Robin Spencer,177.42
+428,Jeanette Hill,170.23
+429,Michael Jones,114.84
+430,Paul Hughes,31.78
+431,John Bailey,82.09
+432,Jason Shields,78.5
+433,Jennifer Martin,190.24
+434,Robert Berg,81.86
+435,Matthew Brooks,74.58
+436,William Jones,56.4
+437,Ms. Chelsea Mcgee,85.99
+438,Frank Perez,171.16
+439,Joel Kennedy DDS,140.69
+440,Samantha Long,127.73
+441,Lindsay Mitchell,69.52
+442,Mrs. Susan Richards,123.63
+443,Tammy Henry,121.28
+444,Jeremy Lambert,25.09
+445,Cynthia Howard,135.36
+446,Alan Brewer,46.42
+447,Danielle Parrish,68.31
+448,Helen Johnston,190.52
+449,Brittney Frey,82.02
+450,Tiffany Ewing,162.61
+451,Christopher Perez,38.17
+452,Barbara Weaver,103.13
+453,Melissa Bullock,100.48
+454,Rodney Simmons,138.1
+455,Jill Hatfield,135.51
+456,Shawn Barnes,93.66
+457,Lisa Tyler,50.83
+458,Tony Barry,131.35
+459,Molly Taylor,117.8
+460,Thomas Harris,43.97
+461,Andrew Hanson,153.96
+462,Jennifer Porter,4.06
+463,Brian Jones,28.43
+464,Mrs. Michelle Thomas,185.62
+465,Scott Alvarez,191.71
+466,Gregory Juarez,180.99
+467,Charles Vargas,118.87
+468,Shelly Nunez,49.86
+469,Stacey Wall,128.95
+470,James Jordan,78.1
+471,Norma Munoz,170.39
+472,Amber Anderson,194.63
+473,Kristin King,139.16
+474,Mary Gray,157.3
+475,Jordan Martin,124.11
+476,Pedro Nelson,146.92
+477,Alfred Turner,117.83
+478,Kristen Vincent,94.63
+479,Hannah Gonzalez,27.22
+480,Sergio Wilson,83.72
+481,Kimberly Hernandez,42.58
+482,Lawrence Harrison,167.22
+483,Terri Brown,30.43
+484,Megan Wagner,55.5
+485,Richard Atkinson,89.67
+486,Jessica Owen,110.15
+487,Mrs. Shelby Johnston,58.34
+488,Ann Rogers,175.85
+489,Thomas Dunn,5.82
+490,Andrea Lewis,55.87
+491,Joshua Robinson,196.8
+492,Andrew Vasquez,110.41
+493,Cindy Allen,125.46
+494,Cassidy Williams,149.26
+495,Travis Barker,157.67
+496,Andrew Werner,160.0
+497,Michael Ponce,33.16
+498,John Brooks,162.53
+499,Scott Hooper,192.53
+500,Cole Ross,66.98

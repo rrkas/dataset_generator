@@ -1,0 +1,17 @@
+dataset name: inventory2
+Files:
+    Seller:
+        - id (int)
+        - name (text)
+    Inventory:
+        - id (int)
+        - seller_id (int)
+        - name (text)
+        - batch (uuid)
+        - quantity (int)
+        - rate (float)
+Possible problem statements:
+    1. Total value of inventory
+    2. Seller wise total value of inventory
+    3. Batch wise total value of inventory
+    4. Inventory count by rate buckets (0-10, 10-20, ...)

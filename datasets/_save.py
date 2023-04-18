@@ -1,7 +1,7 @@
 import json
 import os
-import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
+import xml.etree.ElementTree as ET
 
 import pandas as pd
 import yaml
@@ -21,63 +21,68 @@ def dict_to_xml(data: list):
     return root
 
 
-def save_to_dir(data: list, format: str, dir_path: str, file_name: str = "data"):
+def save_to_dir(data: dict, format: str, dir_path: str):
     os.makedirs(dir_path, exist_ok=True)
 
-    if format == "csv":
-        filepath = os.path.join(dir_path, f"{file_name}.csv")
-
-        pd.DataFrame(data).to_csv(filepath, index=0)
+    if format in ["xlsx", "all"]:
+        filepath = os.path.join(dir_path, f"data.xlsx")
         print(filepath)
+        with pd.ExcelWriter(filepath) as writer:
+            for sheet, d in data.items():
+                pd.DataFrame(d).to_excel(writer, sheet, index=0)
 
-    elif format == "json":
-        filepath = os.path.join(dir_path, f"{file_name}.json")
+    if format in ["csv", "all"]:
+        for sheet, d in data.items():
+            filepath = os.path.join(dir_path, f"{sheet}.csv")
 
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(
-                json.dumps(
-                    data,
-                    indent=4,
-                    default=str,
+            pd.DataFrame(d).to_csv(filepath, index=0)
+            print(filepath)
+
+    if format in ["json", "all"]:
+        for sheet, d in data.items():
+            filepath = os.path.join(dir_path, f"{sheet}.json")
+
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(
+                    json.dumps(
+                        d,
+                        indent=4,
+                        default=str,
+                    )
                 )
-            )
 
-        print(filepath)
+            print(filepath)
 
-    elif format == "yaml":
-        filepath = os.path.join(dir_path, f"{file_name}.yaml")
+    if format in ["yaml", "all"]:
+        for sheet, d in data.items():
+            filepath = os.path.join(dir_path, f"{sheet}.yaml")
 
-        formatted_data = {"data": {}}
-        for idx, e in enumerate(data):
-            formatted_data["data"][f"entry_{idx}"] = e
+            formatted_data = {"data": {}}
+            for idx, e in enumerate(d):
+                formatted_data["data"][f"entry_{idx}"] = e
 
-        with open(filepath, "w", encoding="utf-8") as f:
-            yaml.dump(
-                formatted_data,
-                f,
-            )
+            with open(filepath, "w", encoding="utf-8") as f:
+                yaml.dump(
+                    formatted_data,
+                    f,
+                )
 
-        print(filepath)
+            print(filepath)
 
-    elif format == "xml":
-        filepath = os.path.join(dir_path, f"{file_name}.xml")
+    if format in ["xml", "all"]:
+        for sheet, d in data.items():
+            filepath = os.path.join(dir_path, f"{sheet}.xml")
 
-        xml_data = dict_to_xml(data)
-        xml_string = ET.tostring(xml_data, encoding="utf-8")
+            xml_data = dict_to_xml(d)
+            xml_string = ET.tostring(xml_data, encoding="utf-8")
 
-        dom = minidom.parseString(xml_string)
-        xml_string = dom.toprettyxml()
+            dom = minidom.parseString(xml_string)
+            xml_string = dom.toprettyxml()
 
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(xml_string)
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(xml_string)
 
-        print(filepath)
-
-    elif format == "all":
-        save_to_dir(data, "csv", dir_path, file_name)
-        save_to_dir(data, "xml", dir_path, file_name)
-        save_to_dir(data, "json", dir_path, file_name)
-        save_to_dir(data, "yaml", dir_path, file_name)
+            print(filepath)
 
 
 def get_doc(dataset):

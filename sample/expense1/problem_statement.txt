@@ -1,0 +1,22 @@
+dataset name: expense1
+Files:
+    Expense:
+        - id (int)
+        - user_id (text)
+        - category (text)
+        - description (text)
+        - date (date)
+        - value (float)
+Possible problem statements:
+    1. User wise total expense
+    2. User wise annual expense
+    3. User wise average expense
+    4. User wise category wise total expense
+    5. User wise category wise annual expense
+    6. User wise category wise average expense
+    7. Category wise total expense
+    8. Category wise annual expense
+    9. Category wise average expense
+    10. Total expense
+    11. Annual expense
+    12. Average expense

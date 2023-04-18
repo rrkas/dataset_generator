@@ -19,4 +19,5 @@ available formats:
     - json
     - yaml
     - xml
+    - xlsx
     - all

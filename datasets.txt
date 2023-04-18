@@ -70,3 +70,25 @@ Inventory datasets:
             - density_gcm (float)
             - rate_g (float)
 
+    inventory2:
+        Seller:
+            - id (int)
+            - name (text)
+        Inventory:
+            - id (int)
+            - seller_id (int)
+            - name (text)
+            - batch (uuid)
+            - quantity (int)
+            - rate (float)
+
+Expense datasets:
+    expense1:
+        Expense:
+            - id (int)
+            - user_id (text)
+            - category (text)
+            - description (text)
+            - date (date)
+            - value (float)
+

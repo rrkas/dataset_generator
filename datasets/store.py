@@ -39,9 +39,14 @@ def store1(limit, format, output_dir):
         5. Get the average revenue per order for each month of the year
     """
 
+    customer_limit = limit
+    product_limit = max(limit // 20, 50)
+    order_limit = max(limit // 20, 50)
+    order_item_limit = limit
+
     fake = MyFaker()
     customers = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(customer_limit)):
         customers.append(
             {
                 "id": fake.id(),
@@ -51,11 +56,9 @@ def store1(limit, format, output_dir):
             }
         )
 
-    save_to_dir(customers, format, output_dir, "Customer")
-
     fake = MyFaker()
     products = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(product_limit)):
         products.append(
             {
                 "id": fake.id(),
@@ -64,15 +67,13 @@ def store1(limit, format, output_dir):
             }
         )
 
-    save_to_dir(products, format, output_dir, "Product")
-
     fake = MyFaker()
     orders = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(order_limit)):
         orders.append(
             {
                 "id": fake.id(),
-                "customer_id": int(fake.number(1, limit)),
+                "customer_id": int(fake.number(1, customer_limit)),
                 "date": fake.datetime(
                     start_date=datetime.utcnow() - timedelta(days=365),
                     end_date=datetime.utcnow(),
@@ -80,18 +81,25 @@ def store1(limit, format, output_dir):
             }
         )
 
-    save_to_dir(orders, format, output_dir, "Order")
-
     fake = MyFaker()
     order_items = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(order_item_limit)):
         order_items.append(
             {
                 "id": fake.id(),
-                "order_id": int(fake.number(1, limit)),
-                "product_id": int(fake.number(1, limit)),
+                "order_id": int(fake.number(1, order_limit)),
+                "product_id": int(fake.number(1, product_limit)),
                 "quantity": fake.number(1, 100, 2),
             }
         )
 
-    save_to_dir(order_items, format, output_dir, "OrderItem")
+    save_to_dir(
+        {
+            "Customer": customers,
+            "Product": products,
+            "Order": orders,
+            "OrderItem": order_items,
+        },
+        format,
+        output_dir,
+    )

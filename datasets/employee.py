@@ -26,10 +26,11 @@ def employee1(limit, format, output_dir):
         4. Total salary paid by the company per month and per year
         5. Salary bracket wise user count (range of 10000)
     """
+    employee_limit = limit
 
     fake = MyFaker()
     data = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(employee_limit)):
         data.append(
             {
                 "emp_id": fake.id(),
@@ -46,7 +47,7 @@ def employee1(limit, format, output_dir):
             }
         )
 
-    save_to_dir(data, format, output_dir, "Employee")
+    save_to_dir({"Employee": data}, format, output_dir)
 
 
 def employee2(limit, format, output_dir):
@@ -80,9 +81,14 @@ def employee2(limit, format, output_dir):
         4. Get the average salary by job title
         5. Get the departments with the highest and lowest average salaries
     """
+
+    employee_limit = limit
+    dept_limit = max(limit // 20, 50)
+    salary_limit = limit
+
     fake = MyFaker()
     employees = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(employee_limit)):
         employees.append(
             {
                 "employee_id": fake.id(),
@@ -97,25 +103,23 @@ def employee2(limit, format, output_dir):
                     end_date=datetime.utcnow() - timedelta(days=365),
                 ).isoformat(),
                 "job_title": fake.designation(),
-                "department_id": int(fake.number(1, limit)),
+                "department_id": int(fake.number(1, dept_limit)),
             }
         )
-    save_to_dir(employees, format, output_dir, "Employee")
 
     fake = MyFaker()
     depts = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(dept_limit)):
         depts.append(
             {
                 "department_id": fake.id(),
                 "department_name": fake.first_name(),
             }
         )
-    save_to_dir(depts, format, output_dir, "Department")
 
     fake = MyFaker()
     salaries = []
-    for _ in tqdm(range(limit)):
+    for _ in tqdm(range(salary_limit)):
         from_date = fake.datetime(
             start_date=datetime.utcnow() - timedelta(days=365 * 4),
             end_date=datetime.utcnow() - timedelta(days=60),
@@ -127,10 +131,19 @@ def employee2(limit, format, output_dir):
         salaries.append(
             {
                 "transaction_id": fake.id(),
-                "employee_id": int(fake.number(1, limit)),
+                "employee_id": int(fake.number(1, employee_limit)),
                 "salary": int(fake.number(20000, 130000)),
                 "from_date": from_date.isoformat(),
                 "to_date": to_date.isoformat(),
             }
         )
-    save_to_dir(salaries, format, output_dir, "Salary")
+
+    save_to_dir(
+        {
+            "Employee": employees,
+            "Department": depts,
+            "Salary": salaries,
+        },
+        format,
+        output_dir,
+    )
